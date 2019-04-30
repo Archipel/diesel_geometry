@@ -126,6 +126,9 @@ pub mod expression;
 #[cfg(feature = "postgres")]
 pub mod pg;
 
+#[cfg(feature = "mysql")]
+pub mod mysql;
+
 pub mod sql_types;
 
 #[cfg(test)]
